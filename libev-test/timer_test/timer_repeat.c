@@ -32,10 +32,10 @@ void timer_cb(struct ev_loop *main_loop, struct ev_timer *w, int events)
 int main(int argc, char *argv[])
 {
     struct ev_loop *main_loop = ev_default_loop(0);
-    //ev_timer w;
-    //ev_init(&w, timer_cb);
-    //w.repeat = 1.; // sec
-    //ev_timer_again(main_loop, &w); // do not need ev_timer_start
+    ev_timer w;
+    ev_init(&w, timer_cb);
+    w.repeat = 1.; // sec
+    ev_timer_again(main_loop, &w); // do not need ev_timer_start
 
     ev_run(main_loop, 0);
     ev_loop_destroy(main_loop);
