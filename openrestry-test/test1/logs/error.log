@@ -1,0 +1,625 @@
+2017/04/24 12:04:22 [emerg] 17574#17574: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/04/24 12:04:22 [emerg] 17574#17574: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/04/24 12:04:22 [emerg] 17574#17574: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/04/24 12:04:22 [emerg] 17574#17574: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/04/24 12:04:22 [emerg] 17574#17574: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2017/04/24 13:13:48 [notice] 4499#4499: signal process started
+2017/04/24 13:15:53 [notice] 5749#5749: signal process started
+2017/04/24 13:18:21 [notice] 7463#7463: signal process started
+2017/04/24 13:19:24 [notice] 8090#8090: signal process started
+2017/04/24 13:22:44 [notice] 10062#10062: signal process started
+2017/04/24 14:36:45 [notice] 25615#25615: signal process started
+2017/04/24 14:37:12 [notice] 26081#26081: signal process started
+2017/04/24 14:39:26 [notice] 27643#27643: signal process started
+2017/04/24 14:39:57 [notice] 27792#27792: signal process started
+2017/04/24 14:42:54 [notice] 29741#29741: signal process started
+2017/04/24 14:43:27 [notice] 30263#30263: signal process started
+2017/04/24 14:43:28 [notice] 30277#30277: signal process started
+2017/04/24 14:43:29 [notice] 30286#30286: signal process started
+2017/04/24 20:14:38 [notice] 27944#27944: signal process started
+2017/04/24 20:15:12 [notice] 28650#28650: signal process started
+2017/04/24 20:15:12 [error] 27946#27946: *34 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "POST /balance HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/24 20:15:27 [error] 28651#28651: *35 failed to load external Lua file "/etc/nginx/ngx_lua_reqstatus/status.lua": cannot open /etc/nginx/ngx_lua_reqstatus/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:15:27 [error] 28651#28651: *35 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:15:49 [error] 28651#28651: *36 failed to load external Lua file "/etc/nginx/ngx_lua_reqstatus/status.lua": cannot open /etc/nginx/ngx_lua_reqstatus/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:15:49 [error] 28651#28651: *36 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:15:56 [error] 28651#28651: *37 failed to load external Lua file "/etc/nginx/ngx_lua_reqstatus/status.lua": cannot open /etc/nginx/ngx_lua_reqstatus/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:15:56 [error] 28651#28651: *37 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:16:23 [notice] 30416#30416: signal process started
+2017/04/24 20:16:23 [error] 28651#28651: *38 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "POST /balance HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/24 20:16:25 [error] 30418#30418: *39 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:16:25 [error] 30418#30418: *39 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:16:28 [error] 30418#30418: *40 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:16:28 [error] 30418#30418: *40 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:17:11 [notice] 31217#31217: signal process started
+2017/04/24 20:17:11 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:17:11 [error] 30418#30418: *41 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "POST /balance HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/24 20:17:11 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:17:11 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:17:11 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:17:11 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:17:11 [emerg] 19535#19535: still could not bind()
+2017/04/24 20:17:29 [error] 30418#30418: *42 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:17:29 [error] 30418#30418: *42 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:17:30 [error] 30418#30418: *43 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:17:30 [error] 30418#30418: *43 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:18:20 [error] 30418#30418: *44 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:18:20 [error] 30418#30418: *44 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:18:23 [notice] 32242#32242: signal process started
+2017/04/24 20:18:23 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:18:23 [error] 30418#30418: *45 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "POST /balance HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/24 20:18:23 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:18:23 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:18:23 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:18:24 [error] 30418#30418: *46 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:18:24 [error] 30418#30418: *46 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:18:23 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:18:23 [emerg] 19535#19535: still could not bind()
+2017/04/24 20:18:28 [error] 30418#30418: *47 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:18:28 [error] 30418#30418: *47 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:20:07 [notice] 1150#1150: signal process started
+2017/04/24 20:20:07 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:20:07 [error] 30418#30418: *48 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "POST /balance HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/24 20:20:07 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:20:07 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:20:07 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:20:07 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:20:07 [emerg] 19535#19535: still could not bind()
+2017/04/24 20:20:13 [error] 30418#30418: *49 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:20:13 [error] 30418#30418: *49 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:20:24 [notice] 1258#1258: signal process started
+2017/04/24 20:20:24 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:20:24 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:20:24 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:20:24 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:20:24 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:20:24 [emerg] 19535#19535: still could not bind()
+2017/04/24 20:22:14 [notice] 2514#2514: signal process started
+2017/04/24 20:22:14 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:22:14 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:22:14 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:22:14 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:22:14 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:22:14 [emerg] 19535#19535: still could not bind()
+2017/04/24 20:22:18 [error] 30418#30418: *50 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:22:18 [error] 30418#30418: *50 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:22:26 [notice] 2582#2582: signal process started
+2017/04/24 20:22:26 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:22:26 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:22:26 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:22:26 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:22:26 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:22:28 [error] 30418#30418: *51 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:22:28 [error] 30418#30418: *51 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:22:26 [emerg] 19535#19535: still could not bind()
+2017/04/24 20:22:29 [error] 30418#30418: *52 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:22:29 [error] 30418#30418: *52 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:22:29 [error] 30418#30418: *53 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:22:29 [error] 30418#30418: *53 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:22:30 [error] 30418#30418: *54 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:22:30 [error] 30418#30418: *54 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:23:07 [notice] 3991#3991: signal process started
+2017/04/24 20:23:07 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:23:07 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:23:07 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:23:07 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:23:07 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:23:07 [emerg] 19535#19535: still could not bind()
+2017/04/24 20:23:11 [error] 30418#30418: *55 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:23:11 [error] 30418#30418: *55 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:23:36 [notice] 4118#4118: signal process started
+2017/04/24 20:23:36 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:23:36 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:23:36 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:23:36 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:23:38 [error] 30418#30418: *56 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:23:38 [error] 30418#30418: *56 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:23:36 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:23:36 [emerg] 19535#19535: still could not bind()
+2017/04/24 20:23:39 [error] 30418#30418: *57 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:23:39 [error] 30418#30418: *57 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:23:45 [error] 30418#30418: *58 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/status.lua": cannot open /home/make/test5/b/openrestry-test/test1/status.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:23:45 [error] 30418#30418: *58 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:24:04 [error] 30418#30418: *59 failed to load external Lua file "/home/make/test5/b/openrestry-test/test1/hook.lua": cannot open /home/make/test5/b/openrestry-test/test1/hook.lua: No such file or directory while logging request, client: 127.0.0.1, server: , request: "GET /balance HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/24 20:25:21 [notice] 5373#5373: signal process started
+2017/04/24 20:25:21 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:25:21 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:25:21 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:25:21 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:25:21 [emerg] 19535#19535: bind() to 0.0.0.0:6080 failed (98: Address already in use)
+2017/04/24 20:25:21 [emerg] 19535#19535: still could not bind()
+2017/04/24 20:25:44 [notice] 5525#5525: signal process started
+2017/04/24 20:26:11 [notice] 5980#5980: signal process started
+2017/04/24 20:26:11 [error] 5980#5980: open() "/home/make/test5/b/openrestry-test/test1/logs/nginx.pid" failed (2: No such file or directory)
+2017/04/24 20:26:12 [notice] 6010#6010: signal process started
+2017/04/24 20:26:12 [error] 6010#6010: open() "/home/make/test5/b/openrestry-test/test1/logs/nginx.pid" failed (2: No such file or directory)
+2017/04/24 20:26:24 [error] 6018#6018: *1 "/home/make/test5/b/openrestry-test/test1/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:26:24 [error] 6018#6018: *1 failed to run log_by_lua*: /home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: module 'reqmonit' not found:
+	no field package.preload['reqmonit']
+	no file '/usr/local/openresty/site/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit/init.lua'
+	no file '/usr/local/openresty/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/lualib/reqmonit/init.lua'
+	no file './reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta2/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit.so'
+	no file '/usr/local/openresty/lualib/reqmonit.so'
+	no file './reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: in function </home/make/test5/b/openrestry-test/test1/conf/hook.lua:1> while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:26:45 [error] 6018#6018: *2 failed to run log_by_lua*: /home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: module 'reqmonit' not found:
+	no field package.preload['reqmonit']
+	no file '/usr/local/openresty/site/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit/init.lua'
+	no file '/usr/local/openresty/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/lualib/reqmonit/init.lua'
+	no file './reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta2/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit.so'
+	no file '/usr/local/openresty/lualib/reqmonit.so'
+	no file './reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: in function </home/make/test5/b/openrestry-test/test1/conf/hook.lua:1> while logging request, client: 127.0.0.1, server: , request: "GET /aaa HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:27:10 [notice] 7371#7371: signal process started
+2017/04/24 20:27:11 [error] 7372#7372: *3 failed to run log_by_lua*: /home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: module 'reqmonit' not found:
+	no field package.preload['reqmonit']
+	no file '/usr/local/openresty/site/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit/init.lua'
+	no file '/usr/local/openresty/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/lualib/reqmonit/init.lua'
+	no file './reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta2/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit.so'
+	no file '/usr/local/openresty/lualib/reqmonit.so'
+	no file './reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: in function </home/make/test5/b/openrestry-test/test1/conf/hook.lua:1> while logging request, client: 127.0.0.1, server: , request: "GET /aaa HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:27:24 [error] 7372#7372: *4 open() "/home/make/test5/b/openrestry-test/test1/html/balance" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /balance HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:27:24 [error] 7372#7372: *4 failed to run log_by_lua*: /home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: module 'reqmonit' not found:
+	no field package.preload['reqmonit']
+	no file '/usr/local/openresty/site/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit/init.lua'
+	no file '/usr/local/openresty/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/lualib/reqmonit/init.lua'
+	no file './reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta2/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit.so'
+	no file '/usr/local/openresty/lualib/reqmonit.so'
+	no file './reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: in function </home/make/test5/b/openrestry-test/test1/conf/hook.lua:1> while logging request, client: 127.0.0.1, server: , request: "GET /balance HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:27:30 [error] 7372#7372: *5 failed to run log_by_lua*: /home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: module 'reqmonit' not found:
+	no field package.preload['reqmonit']
+	no file '/usr/local/openresty/site/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit/init.lua'
+	no file '/usr/local/openresty/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/lualib/reqmonit/init.lua'
+	no file './reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta2/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit.so'
+	no file '/usr/local/openresty/lualib/reqmonit.so'
+	no file './reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: in function </home/make/test5/b/openrestry-test/test1/conf/hook.lua:1> while logging request, client: 127.0.0.1, server: , request: "GET /balance HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/24 20:27:33 [error] 7372#7372: *6 failed to run log_by_lua*: /home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: module 'reqmonit' not found:
+	no field package.preload['reqmonit']
+	no file '/usr/local/openresty/site/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit/init.lua'
+	no file '/usr/local/openresty/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/lualib/reqmonit/init.lua'
+	no file './reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta2/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit.so'
+	no file '/usr/local/openresty/lualib/reqmonit.so'
+	no file './reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: in function </home/make/test5/b/openrestry-test/test1/conf/hook.lua:1> while logging request, client: 127.0.0.1, server: , request: "GET /aaa HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:29:45 [emerg] 9109#9109: directive "server_name" is not terminated by ";" in /home/make/test5/b/openrestry-test/test1/conf/nginx.conf:32
+2017/04/24 20:29:58 [notice] 9172#9172: signal process started
+2017/04/24 20:30:19 [error] 9620#9620: *1 failed to run log_by_lua*: /home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: module 'reqmonit' not found:
+	no field package.preload['reqmonit']
+	no file '/usr/local/openresty/site/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit/init.lua'
+	no file '/usr/local/openresty/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/lualib/reqmonit/init.lua'
+	no file './reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta2/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit.so'
+	no file '/usr/local/openresty/lualib/reqmonit.so'
+	no file './reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: in function </home/make/test5/b/openrestry-test/test1/conf/hook.lua:1> while logging request, client: 127.0.0.1, server: , request: "GET /aaa HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:30:25 [error] 9620#9620: *2 lua entry thread aborted: runtime error: /home/make/test5/b/openrestry-test/test1/conf/status.lua:11: module 'reqmonit' not found:
+	no field package.preload['reqmonit']
+	no file '/usr/local/openresty/site/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit/init.lua'
+	no file '/usr/local/openresty/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/lualib/reqmonit/init.lua'
+	no file './reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta2/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit.so'
+	no file '/usr/local/openresty/lualib/reqmonit.so'
+	no file './reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/make/test5/b/openrestry-test/test1/conf/status.lua:11: in function </home/make/test5/b/openrestry-test/test1/conf/status.lua:1>, client: 127.0.0.1, server: , request: "GET /aaa?domain=aaa.com HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:30:25 [error] 9620#9620: *2 failed to run log_by_lua*: /home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: module 'reqmonit' not found:
+	no field package.preload['reqmonit']
+	no file '/usr/local/openresty/site/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit/init.lua'
+	no file '/usr/local/openresty/lualib/reqmonit.lua'
+	no file '/usr/local/openresty/lualib/reqmonit/init.lua'
+	no file './reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta2/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/reqmonit/init.lua'
+	no file '/usr/local/openresty/site/lualib/reqmonit.so'
+	no file '/usr/local/openresty/lualib/reqmonit.so'
+	no file './reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/reqmonit.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/home/make/test5/b/openrestry-test/test1/conf/hook.lua:3: in function </home/make/test5/b/openrestry-test/test1/conf/hook.lua:1> while logging request, client: 127.0.0.1, server: , request: "GET /aaa?domain=aaa.com HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/24 20:33:00 [notice] 11263#11263: signal process started
+2017/04/25 07:21:12 [error] 11264#11264: *8 open() "/home/make/test5/b/openrestry-test/test1/html/cache/global/img/gs.gif" failed (2: No such file or directory), client: 163.172.173.181, server: , request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2017/04/25 08:24:43 [error] 11264#11264: *10 open() "/home/make/test5/b/openrestry-test/test1/html/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.78.38, server: , request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2017/04/25 17:19:46 [notice] 32444#32444: signal process started
+2017/04/25 17:25:33 [emerg] 3765#3765: open() "/home/make/test5/b/openrestry-test/test1/conf/fcgi.conf" failed (2: No such file or directory) in /home/make/test5/b/openrestry-test/test1/conf/nginx.conf:51
+2017/04/25 17:26:23 [notice] 4326#4326: signal process started
+2017/04/25 17:28:19 [notice] 5533#5533: signal process started
+2017/04/25 19:03:01 [notice] 1760#1760: signal process started
+2017/04/25 19:03:04 [error] 1761#1761: *30 lua entry thread aborted: runtime error: error loading module 'req_stat' from file '/home/make/test5/b/openrestry-test/test1/conf/api_limit/req_stat.lua':
+	...est5/b/openrestry-test/test1/conf/api_limit/req_stat.lua:4: '(' expected near '.'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:1: in function <...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:1>, client: 127.0.0.1, server: aaa.com, request: "GET /1.php HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/25 19:03:04 [error] 1761#1761: *30 failed to run log_by_lua*: error loading module 'req_stat' from file '/home/make/test5/b/openrestry-test/test1/conf/api_limit/req_stat.lua':
+	...est5/b/openrestry-test/test1/conf/api_limit/req_stat.lua:4: '(' expected near '.'
+stack traceback:
+	[C]: at 0x7fe7a5317760
+	[C]: in function 'require'
+	...st5/b/openrestry-test/test1/conf/api_limit/req_leave.lua:1: in function <...st5/b/openrestry-test/test1/conf/api_limit/req_leave.lua:1> while logging request, client: 127.0.0.1, server: aaa.com, request: "GET /1.php HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/25 19:04:15 [notice] 2825#2825: signal process started
+2017/04/25 19:04:18 [error] 2826#2826: *31 lua entry thread aborted: runtime error: ...est5/b/openrestry-test/test1/conf/api_limit/req_stat.lua:29: attempt to call field 'write' (a nil value)
+stack traceback:
+coroutine 0:
+	...est5/b/openrestry-test/test1/conf/api_limit/req_stat.lua: in function 'get_msg_id'
+	...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:9: in function <...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:1>, client: 127.0.0.1, server: aaa.com, request: "GET /1.php HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/25 19:04:18 [error] 2826#2826: *31 failed to run log_by_lua*: ...st5/b/openrestry-test/test1/conf/api_limit/req_leave.lua:13: attempt to concatenate local 'msg_id' (a nil value)
+stack traceback:
+	...st5/b/openrestry-test/test1/conf/api_limit/req_leave.lua:13: in function <...st5/b/openrestry-test/test1/conf/api_limit/req_leave.lua:1> while logging request, client: 127.0.0.1, server: aaa.com, request: "GET /1.php HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/25 19:10:38 [notice] 6741#6741: signal process started
+2017/04/25 19:10:40 [error] 6742#6742: *32 lua entry thread aborted: runtime error: ...est5/b/openrestry-test/test1/conf/api_limit/req_stat.lua:29: attempt to call field 'write' (a nil value)
+stack traceback:
+coroutine 0:
+	...est5/b/openrestry-test/test1/conf/api_limit/req_stat.lua: in function 'get_msg_id'
+	...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:9: in function <...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:1>, client: 127.0.0.1, server: aaa.com, request: "GET /1.php HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/25 19:10:40 [error] 6742#6742: *32 failed to run log_by_lua*: ...st5/b/openrestry-test/test1/conf/api_limit/req_leave.lua:13: attempt to call field 'write' (a nil value)
+stack traceback:
+	...st5/b/openrestry-test/test1/conf/api_limit/req_leave.lua:13: in function <...st5/b/openrestry-test/test1/conf/api_limit/req_leave.lua:1> while logging request, client: 127.0.0.1, server: aaa.com, request: "GET /1.php HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/25 19:11:42 [notice] 7403#7403: signal process started
+2017/04/25 19:11:45 [error] 7404#7404: *33 lua entry thread aborted: runtime error: ...est5/b/openrestry-test/test1/conf/api_limit/req_stat.lua:23: attempt to concatenate local 'msg' (a nil value)
+stack traceback:
+coroutine 0:
+	...est5/b/openrestry-test/test1/conf/api_limit/req_stat.lua: in function 'log'
+	...est5/b/openrestry-test/test1/conf/api_limit/req_stat.lua:28: in function 'write'
+	...est5/b/openrestry-test/test1/conf/api_limit/req_stat.lua:32: in function 'get_msg_id'
+	...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:9: in function <...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:1>, client: 127.0.0.1, server: aaa.com, request: "GET /1.php HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/25 19:13:13 [notice] 8502#8502: signal process started
+2017/04/25 19:16:07 [notice] 10369#10369: signal process started
+2017/04/25 19:16:07 [error] 9619#9619: init_by_lua_file error: ...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: expecting 1 argument, but seen 0
+stack traceback:
+	[C]: in function 'flush_all'
+	...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: in main chunk
+2017/04/25 19:17:12 [notice] 10980#10980: signal process started
+2017/04/25 19:17:12 [error] 9619#9619: init_by_lua_file error: ...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: expecting 1 argument, but seen 0
+stack traceback:
+	[C]: in function 'flush_all'
+	...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: in main chunk
+2017/04/25 19:17:13 [notice] 10983#10983: signal process started
+2017/04/25 19:17:13 [error] 9619#9619: init_by_lua_file error: ...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: expecting 1 argument, but seen 0
+stack traceback:
+	[C]: in function 'flush_all'
+	...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: in main chunk
+2017/04/25 19:19:49 [notice] 12391#12391: signal process started
+2017/04/25 19:19:49 [error] 9619#9619: init_by_lua_file error: ...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: expecting 1 argument, but seen 0
+stack traceback:
+	[C]: in function 'flush_all'
+	...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: in main chunk
+2017/04/25 19:20:07 [notice] 12895#12895: signal process started
+2017/04/25 19:20:07 [error] 9619#9619: init_by_lua_file error: ...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: expecting 1 argument, but seen 0
+stack traceback:
+	[C]: in function 'flush_all'
+	...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: in main chunk
+2017/04/25 19:20:08 [notice] 12898#12898: signal process started
+2017/04/25 19:20:08 [error] 9619#9619: init_by_lua_file error: ...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: expecting 1 argument, but seen 0
+stack traceback:
+	[C]: in function 'flush_all'
+	...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: in main chunk
+2017/04/25 19:20:09 [notice] 12901#12901: signal process started
+2017/04/25 19:20:09 [error] 9619#9619: init_by_lua_file error: ...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: expecting 1 argument, but seen 0
+stack traceback:
+	[C]: in function 'flush_all'
+	...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: in main chunk
+2017/04/25 19:20:10 [notice] 12904#12904: signal process started
+2017/04/25 19:20:10 [error] 9619#9619: init_by_lua_file error: ...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: expecting 1 argument, but seen 0
+stack traceback:
+	[C]: in function 'flush_all'
+	...ke/test5/b/openrestry-test/test1/conf/api_limit/init.lua:2: in main chunk
+2017/04/25 19:22:16 [notice] 14164#14164: signal process started
+2017/04/25 20:11:40 [notice] 14806#14806: signal process started
+2017/04/25 20:11:41 [notice] 14862#14862: signal process started
+2017/04/25 20:12:54 [notice] 15519#15519: signal process started
+2017/04/25 20:12:57 [error] 15520#15520: *58 lua entry thread aborted: runtime error: ...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:23: attempt to concatenate local 'msg_id' (a nil value)
+stack traceback:
+coroutine 0:
+	...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua: in function <...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:1>, client: 127.0.0.1, server: aaa.com, request: "POST /1.php HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/25 20:16:33 [notice] 17918#17918: signal process started
+2017/04/25 20:16:36 [error] 17919#17919: *59 lua entry thread aborted: runtime error: ...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:23: attempt to concatenate local 'msg_id' (a nil value)
+stack traceback:
+coroutine 0:
+	...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua: in function <...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:1>, client: 127.0.0.1, server: aaa.com, request: "POST /1.php HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/25 20:18:03 [notice] 18983#18983: signal process started
+2017/04/25 20:18:11 [error] 18984#18984: *60 lua entry thread aborted: runtime error: ...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:23: attempt to concatenate local 'msg_id' (a nil value)
+stack traceback:
+coroutine 0:
+	...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua: in function <...st5/b/openrestry-test/test1/conf/api_limit/req_enter.lua:1>, client: 127.0.0.1, server: aaa.com, request: "POST /1.php HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/25 20:20:30 [notice] 20420#20420: signal process started
+2017/04/25 20:30:57 [notice] 26847#26847: signal process started
+2017/04/25 20:31:49 [notice] 27448#27448: signal process started
+2017/04/25 20:36:46 [notice] 30604#30604: signal process started
+2017/04/25 20:40:37 [notice] 549#549: signal process started
+2017/04/25 20:48:25 [emerg] 5801#5801: "init_by_lua_file" directive is duplicate in /home/make/test5/b/openrestry-test/test1/conf/nginx.conf:17
+2017/04/26 07:21:25 [error] 551#551: *111 open() "/home/make/test5/b/openrestry-test/test1/html/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.78.38, server: , request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2017/04/26 14:51:34 [error] 551#551: *113 open() "/home/make/test5/b/openrestry-test/test1/html/1.php" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /1.php HTTP/1.1", host: "127.0.0.1:6080"
+2017/04/26 14:52:04 [error] 551#551: *118 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: aaa.com, request: "POST /2.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:9080"
+2017/04/26 14:52:13 [error] 551#551: *120 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: aaa.com, request: "POST /2.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:9080"
+2017/04/26 16:18:34 [error] 551#551: *142 open() "/home/make/test5/b/openrestry-test/test1/html/cache/global/img/gs.gif" failed (2: No such file or directory), client: 163.172.134.70, server: , request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2017/04/27 05:59:55 [error] 551#551: *146 open() "/home/make/test5/b/openrestry-test/test1/html/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.78.38, server: , request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2017/04/28 01:05:02 [error] 551#551: *151 open() "/home/make/test5/b/openrestry-test/test1/html/cache/global/img/gs.gif" failed (2: No such file or directory), client: 163.172.173.181, server: , request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2017/04/28 04:19:49 [error] 551#551: *153 open() "/home/make/test5/b/openrestry-test/test1/html/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.78.38, server: , request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2017/04/28 19:50:50 [notice] 27952#27952: signal process started
+2017/04/28 19:50:50 [alert] 27952#27952: kill(9619, 1) failed (1: Operation not permitted)
+2017/04/28 19:51:17 [notice] 28375#28375: signal process started
+2017/04/28 19:51:41 [error] 28376#28376: *158 lua entry thread aborted: runtime error: ...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file '/home/make/test5/b/openrestry-test/test1/conf/api_limit/resty/http.lua'
+	no file '/usr/local/openresty/site/lualib/resty/http.so'
+	no file '/usr/local/openresty/lualib/resty/http.so'
+	no file './resty/http.so'
+	no file '/usr/local/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/site/lualib/resty.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: in function <...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1>, client: 127.0.0.1, server: aaa.com, request: "GET /http_test HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/28 19:52:29 [notice] 29068#29068: signal process started
+2017/04/28 19:52:32 [error] 29069#29069: *159 lua entry thread aborted: runtime error: ...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file '/home/make/test5/b/openrestry-test/test1/conf/api_limit/resty/http.lua'
+	no file '/usr/local/openresty/site/lualib/resty/http.so'
+	no file '/usr/local/openresty/lualib/resty/http.so'
+	no file './resty/http.so'
+	no file '/usr/local/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/site/lualib/resty.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: in function <...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1>, client: 127.0.0.1, server: aaa.com, request: "GET /http_test HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/28 19:53:31 [error] 29069#29069: *160 lua entry thread aborted: runtime error: ...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file '/home/make/test5/b/openrestry-test/test1/conf/api_limit/resty/http.lua'
+	no file '/usr/local/openresty/site/lualib/resty/http.so'
+	no file '/usr/local/openresty/lualib/resty/http.so'
+	no file './resty/http.so'
+	no file '/usr/local/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/site/lualib/resty.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: in function <...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1>, client: 127.0.0.1, server: aaa.com, request: "GET /http_test HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/28 19:58:16 [error] 29069#29069: *161 lua entry thread aborted: runtime error: ...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file '/home/make/test5/b/openrestry-test/test1/conf/api_limit/resty/http.lua'
+	no file '/usr/local/openresty/site/lualib/resty/http.so'
+	no file '/usr/local/openresty/lualib/resty/http.so'
+	no file './resty/http.so'
+	no file '/usr/local/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/site/lualib/resty.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: in function <...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1>, client: 127.0.0.1, server: aaa.com, request: "GET /http_test HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/28 19:58:19 [notice] 32627#32627: signal process started
+2017/04/28 19:58:20 [error] 32628#32628: *162 lua entry thread aborted: runtime error: ...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file '/home/make/test5/b/openrestry-test/test1/conf/api_limit/resty/http.lua'
+	no file '/usr/local/openresty/lualib/*.lua'
+	no file '/usr/local/openresty/site/lualib/resty/http.so'
+	no file '/usr/local/openresty/lualib/resty/http.so'
+	no file './resty/http.so'
+	no file '/usr/local/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/site/lualib/resty.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: in function <...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1>, client: 127.0.0.1, server: aaa.com, request: "GET /http_test HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/28 19:58:30 [error] 32628#32628: *163 lua entry thread aborted: runtime error: ...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file '/home/make/test5/b/openrestry-test/test1/conf/api_limit/resty/http.lua'
+	no file '/usr/local/openresty/lualib/*.lua'
+	no file '/usr/local/openresty/site/lualib/resty/http.so'
+	no file '/usr/local/openresty/lualib/resty/http.so'
+	no file './resty/http.so'
+	no file '/usr/local/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/site/lualib/resty.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: in function <...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1>, client: 127.0.0.1, server: aaa.com, request: "GET /http_test HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/28 19:59:05 [notice] 706#706: signal process started
+2017/04/28 19:59:06 [error] 707#707: *164 lua entry thread aborted: runtime error: ...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file '/home/make/test5/b/openrestry-test/test1/conf/api_limit/resty/http.lua'
+	no file '/usr/local/openresty/lualib/resty/http.lua'
+	no file '/usr/local/openresty/site/lualib/resty/http.so'
+	no file '/usr/local/openresty/lualib/resty/http.so'
+	no file './resty/http.so'
+	no file '/usr/local/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/site/lualib/resty.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: in function <...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1>, client: 127.0.0.1, server: aaa.com, request: "GET /http_test HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/28 19:59:22 [error] 707#707: *165 lua entry thread aborted: runtime error: ...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: module 'resty.http' not found:
+	no field package.preload['resty.http']
+	no file '/home/make/test5/b/openrestry-test/test1/conf/api_limit/resty/http.lua'
+	no file '/usr/local/openresty/lualib/resty/http.lua'
+	no file '/usr/local/openresty/site/lualib/resty/http.so'
+	no file '/usr/local/openresty/lualib/resty/http.so'
+	no file './resty/http.so'
+	no file '/usr/local/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/http.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/site/lualib/resty.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1: in function <...st5/b/openrestry-test/test1/conf/http_test/http_test.lua:1>, client: 127.0.0.1, server: aaa.com, request: "GET /http_test HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/28 20:12:00 [error] 707#707: *171 [lua] http.lua:809: request_uri(): connection in dubious state, client: 127.0.0.1, server: aaa.com, request: "GET /http_test HTTP/1.1", host: "127.0.0.1:9080"
+2017/04/29 02:50:24 [error] 707#707: *180 open() "/home/make/test5/b/openrestry-test/test1/html/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.78.38, server: , request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2017/04/29 09:45:48 [error] 707#707: *184 open() "/home/make/test5/b/openrestry-test/test1/html/cache/global/img/gs.gif" failed (2: No such file or directory), client: 163.172.134.70, server: , request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2017/04/30 01:14:17 [error] 707#707: *190 open() "/home/make/test5/b/openrestry-test/test1/html/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.78.38, server: , request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2017/04/30 09:02:24 [error] 707#707: *192 "/home/make/test5/b/openrestry-test/test1/html/index.html" is not found (2: No such file or directory), client: 218.75.201.78, server: , request: "GET / HTTP/1.1", host: "123.207.255.250:6080", referrer: "http://123.207.255.250:6080/"
+2017/05/01 00:00:05 [error] 707#707: *196 open() "/home/make/test5/b/openrestry-test/test1/html/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.78.38, server: , request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2017/05/01 22:35:49 [error] 707#707: *207 open() "/home/make/test5/b/openrestry-test/test1/html/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.78.38, server: , request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"
+2017/05/02 11:30:18 [alert] 3731#3731: lua_code_cache is off; this will hurt performance in /home/make/test5/b/openrestry-test/test1/conf/nginx.conf:23
+2017/05/02 11:30:18 [notice] 3731#3731: signal process started
+2017/05/02 11:30:18 [alert] 9619#9619: lua_code_cache is off; this will hurt performance in /home/make/test5/b/openrestry-test/test1/conf/nginx.conf:23
+2017/05/02 13:52:27 [error] 3732#3732: *221 "/home/make/test5/b/openrestry-test/test1/html/index.html" is not found (2: No such file or directory), client: 180.153.0.12, server: , request: "GET / HTTP/1.0"
+2017/05/02 13:53:58 [error] 3732#3732: *227 "/home/make/test5/b/openrestry-test/test1/html/index.html" is not found (2: No such file or directory), client: 180.153.0.12, server: , request: "GET / HTTP/1.0"
+2017/05/02 16:31:44 [error] 3732#3732: *230 "/home/make/test5/b/openrestry-test/test1/html/index.html" is not found (2: No such file or directory), client: 183.60.48.110, server: , request: "GET / HTTP/1.1", host: "123.207.255.250:6080"
+2017/05/02 21:05:06 [error] 3732#3732: *232 open() "/home/make/test5/b/openrestry-test/test1/html/cache/global/img/gs.gif" failed (2: No such file or directory), client: 80.82.78.38, server: , request: "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1", host: "www.baidu.com"

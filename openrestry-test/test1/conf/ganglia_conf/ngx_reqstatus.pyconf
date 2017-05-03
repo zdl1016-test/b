@@ -1,0 +1,17 @@
+modules {
+    module {
+        name = "ngx_reqstatus"
+        language = "python"
+        param host { value = "aaa.com"}
+        param port { value = "6080"}
+    }
+}
+collection_group {
+    collect_every = 60
+    time_threshold = 60
+    metric { name = "request_count" }
+    metric { name = "qps" }
+    metric { name = "5xx_num" }
+    metric { name = "avg_req_time" }
+}
+
