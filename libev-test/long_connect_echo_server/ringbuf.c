@@ -171,6 +171,21 @@ ringbuf_findchr(const struct ringbuf_t *rb, int c, size_t offset)
 }
 
 size_t
+ringbuf_findchr_human(const struct ringbuf_t *rb, int c, size_t offset)
+{
+    if (ringbuf_bytes_used(rb) <= 0) {
+        return -1;
+    }
+
+    size_t pos = ringbuf_findchr(rb, c, offset);
+    if (pos == ringbuf_bytes_used(rb)) {
+        return -1;
+    }
+
+    return pos;
+}
+
+size_t
 ringbuf_memset(ringbuf_t dst, int c, size_t len)
 {
     const uint8_t *bufend = ringbuf_end(dst);
@@ -281,6 +296,36 @@ ringbuf_memcpy_from(void *dst, ringbuf_t src, size_t count)
 
     assert(count + ringbuf_bytes_used(src) == bytes_used);
     return src->tail;
+}
+
+ssize_t
+ringbuf_memcpy_from_readonly(void *dst, ringbuf_t src, size_t count)
+{
+    size_t bytes_used = ringbuf_bytes_used(src);
+    if (count > bytes_used)
+        return 0;
+
+    uint8_t *tail = src->tail;
+
+    uint8_t *u8dst = dst;
+    const uint8_t *bufend = ringbuf_end(src);
+    size_t nwritten = 0;
+    while (nwritten != count) {
+        assert(bufend > src->tail);
+        size_t n = MIN(bufend - src->tail, count - nwritten);
+        memcpy(u8dst + nwritten, src->tail, n);
+        src->tail += n;
+        nwritten += n;
+
+        /* wrap ? */
+        if (src->tail == bufend)
+            src->tail = src->buf;
+    }
+
+    // restore old tail
+    src->tail = tail;
+
+    return count;
 }
 
 ssize_t

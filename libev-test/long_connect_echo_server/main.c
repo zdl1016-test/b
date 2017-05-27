@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>
+#include <string.h>
 #include <sys/unistd.h>
 #include <sys/epoll.h>
 #include <sys/types.h>
@@ -14,6 +15,11 @@
 #include <netdb.h>
 #include "ev.h"
 #include "ringbuf.h"
+
+// todo
+// release_conn in anywhere is dangerange
+//  if fd error, 
+//  if logic error
  
 #define RINGBUFF_SIZE 1024
 #define BUFFER_SIZE   1024
@@ -51,6 +57,8 @@ typedef struct socket_conn_t {
 } socket_conn_t;
 
 server_context_t * echo_server_ctx = 0;
+server_context_t * telnet_server_ctx = 0;
+int conn_count = 0;
 
  
 int socket_create_and_bind(const char *port);
@@ -62,21 +70,20 @@ int socket_setnonblock(int fd);
 int release_conn(socket_conn_t *conn);
 
 int create_echo_server(struct ev_loop *main_loop, const char *ip, const char *port);
-int create_telnet_server(struct ev_loop *main_loop, const char *ip, const char *port);
 void process_echo_data(struct socket_conn_t *conn);
 void send_echo_data(socket_conn_t *conn);
 void send_data(socket_conn_t *conn);
+
+int create_telnet_server(struct ev_loop *main_loop, const char *ip, const char *port);
+void process_telnet_data(struct socket_conn_t *conn);
+void process_telnet_cmd(struct socket_conn_t *conn, char * cmd);
 
 int main(int argc, char *argv[])
 {
     int s = 0;
  
-    //if (argc != 3) {
-    //    fprintf(stderr, "Usage: %s [port] [port2]\n", argv[0]);
-    //    return -1;
-    //}
-    if (argc != 2) {
-        fprintf(stderr, "Usage: %s [port]\n", argv[0]);
+    if (argc != 3) {
+        fprintf(stderr, "Usage: %s [port] [port2]\n", argv[0]);
         return -1;
     }
  
@@ -88,11 +95,11 @@ int main(int argc, char *argv[])
         return -1;
     }
 
-    //s = create_telnet_server(main_loop, 0, argv[2]);
-    //if (s != 0) {
-    //    fprintf(stderr, "create_telnet_server failed\n");
-    //    return -1;
-    //}
+    s = create_telnet_server(main_loop, 0, argv[2]);
+    if (s != 0) {
+        fprintf(stderr, "create_telnet_server failed\n");
+        return -1;
+    }
  
     ev_run(main_loop, 0);
  
@@ -121,6 +128,66 @@ void process_echo_data(struct socket_conn_t *conn)
         }
     }
 
+    ev_io_start(conn->loop, &conn->write_w);
+}
+
+void process_telnet_data(struct socket_conn_t *conn)
+{
+    // telnet cmd segment by line break '\n' 
+    
+    if (ringbuf_bytes_used(conn->rb_recv) <= 0) {
+        return;
+    }
+
+    char cmd[1024];
+
+    // parse recv buff, try find char '\n'
+    size_t offset = 0;
+    while (1) {
+        size_t pos = ringbuf_findchr_human(conn->rb_recv, '\n', offset);
+        if (pos == -1) {
+            break;
+        }
+
+        fprintf(stderr, "DEBUG: line break pos:%u\n", pos);
+
+        // todo , when recv invalid cmd, here process is simple and crude, the better way is ingore the invalid cmd
+        if (pos > (sizeof(cmd)-1)) {
+            fprintf(stderr, "invalid telnet cmd, the cmd is too long, len:%u, force disconnect client:%s:%d", pos, conn->remote_ip, conn->remote_port);
+            release_conn(conn);
+            return;
+        }
+
+
+        // find one cmd, and process the cmd
+        ringbuf_memcpy_from(cmd, conn->rb_recv, pos+1);
+        cmd[pos] = '\0'; // replace \n to \0
+
+        // remove \r if exist
+        if (pos >= 1 && (cmd[pos-1]=='\r')) {
+            cmd[pos-1] = '\0';
+        }
+
+        process_telnet_cmd(conn, cmd);
+        offset = pos + 1;
+    }
+}
+
+void process_telnet_cmd(struct socket_conn_t *conn, char * cmd) {
+    fprintf(stderr, "recv telnet cmd:%s\n", cmd);
+
+    if (strcasecmp(cmd, "quit_server") == 0) {
+        abort();
+        return;
+    } else if (strcasecmp(cmd, "status") == 0) {
+        char buff[128];
+        snprintf(buff, sizeof(buff), "now conn count:%d\n", conn_count);
+        ringbuf_memcpy_into(conn->rb_send, buff, strlen(buff));
+    } else {
+        char buff[128];
+        snprintf(buff, sizeof(buff), "unsupoort cmd:%s\n", cmd);
+        ringbuf_memcpy_into(conn->rb_send, buff, strlen(buff));
+    }
     ev_io_start(conn->loop, &conn->write_w);
 }
 
@@ -199,7 +266,7 @@ int create_echo_server(struct ev_loop *main_loop, const char *ip, const char *po
 
     return 0;
 }
-/*
+
 int create_telnet_server(struct ev_loop *main_loop, const char *ip, const char *port)
 {
     int sfd = 0, s = 0;
@@ -227,16 +294,16 @@ int create_telnet_server(struct ev_loop *main_loop, const char *ip, const char *
 
     ctx->server_type = server_type_telnet; // 
     ctx->process_data_cb = process_telnet_data;
+    ctx->send_data_cb = send_data;
     ctx->sock_w.data = ctx;
     ev_init(&(ctx->sock_w), socket_accept);
     ev_io_set(&(ctx->sock_w), sfd, EV_READ);
     ev_io_start(main_loop, &(ctx->sock_w));
 
-    echo_server_ctx = ctx;
+    telnet_server_ctx = ctx;
 
     return 0;
 }
-*/
 
 int socket_setnonblock(int fd)
 {
@@ -340,7 +407,6 @@ void socket_accept(struct ev_loop *main_loop, ev_io *sock_w, int events)
  
     do {
         //fprintf(stderr, "%s new conn %d [%s:%d]\n", __func__, nfd, inet_ntoa(sin.sin_addr), ntohs(sin.sin_port));
- 
         socket_setnonblock(nfd);
  
         // new client
@@ -364,6 +430,7 @@ void socket_accept(struct ev_loop *main_loop, ev_io *sock_w, int events)
 
         fprintf(stderr, "%s new conn %d [%s:%d], server_type:%d\n", __func__, nfd, inet_ntoa(sin.sin_addr), ntohs(sin.sin_port), (int)conn->ctx->server_type);
         fflush(stderr);
+        conn_count++;
     } while (0);
 }
 
@@ -433,5 +500,6 @@ int release_conn(socket_conn_t *conn)
     ringbuf_free(&conn->rb_send);
     ringbuf_free(&conn->rb_recv);
     free(conn);
+    conn_count--;
     return;
 }

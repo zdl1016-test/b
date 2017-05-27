@@ -118,6 +118,13 @@ size_t
 ringbuf_findchr(const struct ringbuf_t *rb, int c, size_t offset);
 
 /*
+ * if finded, return logic pos [0, len-1)
+ * if not finded, return -1
+ */
+size_t
+ringbuf_findchr_human(const struct ringbuf_t *rb, int c, size_t offset);
+
+/*
  * Beginning at ring buffer dst's head pointer, fill the ring buffer
  * with a repeating sequence of len bytes, each of value c (converted
  * to an unsigned char). len can be as large as you like, but the
@@ -190,6 +197,9 @@ ringbuf_read(int fd, ringbuf_t rb, size_t count);
  */
 void *
 ringbuf_memcpy_from(void *dst, ringbuf_t src, size_t count);
+
+ssize_t
+ringbuf_memcpy_from_readonly(void *dst, ringbuf_t src, size_t count);
 
 /*
  * This convenience function calls write(2) on the file descriptor fd,
